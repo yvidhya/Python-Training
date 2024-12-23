@@ -1,6 +1,3 @@
-#The program counts the number of Odd digits in the number
-#code
-
 def count_odd(n):
   count=0
   while n>0 :
