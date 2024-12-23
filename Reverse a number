@@ -1,5 +1,4 @@
 #program to print a number in reverse order
-
 def reverse_number(n):
   num=0
   while n>0:
