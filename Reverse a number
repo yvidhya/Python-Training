@@ -1,0 +1,12 @@
+#program to print a number in reverse order
+
+def reverse_number(n):
+  num=0
+  while n>0:
+    digit=n%10
+    num=num*10+digit
+    n=n//10
+  return num
+n = int(input())
+result = reverse_number(n)
+print(result)
